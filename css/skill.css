@@ -7,3 +7,7 @@
 .skills__card{
     transition: .25s;
 }
+
+#skills .card{
+    height: 50% ;
+}
