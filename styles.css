@@ -1,0 +1,28 @@
+@import url("./css/header.css");
+@import url("./css/banner.css");
+@import url("./css/aboutme.css");
+@import url("./css/skill.css");
+@import url("./css/portfolio.css");
+@import url("./css/footer.css");
+
+:root{
+    --background:#EBECEE;
+    --black: #000;
+    --white: #FFFFFF;
+    --font: "Roboto Serif", serif;
+}
+
+body{
+    background-color: var(--background);
+    height: 100vh;
+    font-size: 1rem;
+    font-family: var(--font);
+}
+
+section{
+    margin-bottom: 2em;
+}
+
+.container__title{
+    text-align: center;
+}

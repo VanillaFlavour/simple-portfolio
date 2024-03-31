@@ -1,0 +1,22 @@
+.banner {
+    background: url("../img/Banner.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: var(--white);
+    padding: 8em 2em;
+    font-weight: 500;
+    text-align: left;
+    text-shadow: 2px 2px 2px var(--black);
+}
+
+
+.banner__text {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+@media screen and (min-width: 600px) {
+    .banner__title, .banner__text{
+        text-align: center;
+    }
+}

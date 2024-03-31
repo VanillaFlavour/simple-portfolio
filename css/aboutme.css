@@ -1,0 +1,14 @@
+
+.about-me__img{
+    width: 100%;
+    box-shadow: 0px 2px 8px 0px var(--black);
+    border-radius: 6px;
+}
+
+.about-me__info{
+    margin: 2em 0;
+}
+
+.about-me__info i{
+    font-weight: bold;
+}

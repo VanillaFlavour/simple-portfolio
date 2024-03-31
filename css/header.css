@@ -1,0 +1,14 @@
+
+.nav-item{
+    margin-left: auto;
+}
+
+.nav-link{
+    color: var(--white);
+
+}
+
+.navbar{
+    width: 100%;
+    position: absolute;
+}

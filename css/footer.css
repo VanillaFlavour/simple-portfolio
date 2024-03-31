@@ -1,0 +1,21 @@
+
+.social-icons .btn{
+    border: 1px solid var(--black);
+    background: linear-gradient(
+        rgba(0, 0, 0, .5),
+        rgba(255,255,255,.5),
+        rgba(0, 0, 0, .5)
+    );
+    box-shadow: rgba(0, 0, 0, .8) 0px 0px 1px 1px;
+}
+
+.social-icons .btn:hover, .social-icons .btn:active{
+    background: linear-gradient(
+        rgba(0, 0, 0, 1),
+        rgba(0,0,0,.5),
+        rgba(0, 0, 0, 1)
+    );
+    box-shadow: inset rgba(0, 0, 0, .8) 0px 0px 1px 1px;
+    color: var(--white);
+}
+

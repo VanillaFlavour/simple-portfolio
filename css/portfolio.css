@@ -1,0 +1,18 @@
+#portfolio {
+    text-align: center;
+}
+
+.portfolio__card:hover{
+    border: 1px solid var(--black);
+    box-shadow: 0px 2px 8px 0px var(--black);
+    cursor:pointer;
+    transition: .25s;
+}
+
+.portfolio__card{
+    transition: .25s;
+}
+
+.row a{
+    text-decoration: none;
+}
