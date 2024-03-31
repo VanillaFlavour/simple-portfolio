@@ -1,0 +1,13 @@
+.skills__card:hover{
+    border: 1px solid var(--black);
+    box-shadow: 0px 2px 8px 0px var(--black);
+    transition: .25s;
+}
+
+.skills__card{
+    transition: .25s;
+}
+
+#skills .card{
+    height: 50% ;
+}
